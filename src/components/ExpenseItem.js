@@ -1,22 +1,16 @@
+import "./ExpenseItem.css"
+
 export default function ExpenseItem() {
     return (
-        // As an object
-        <div>
-            <p>15 August 2023</p>
-            <p>Delhi</p>
-            <div>
+        <div className="expense-item">
+            <div>26 March 2024</div>
+            <div className="expense-item__location">
+                Challapalli
+            </div>
+            <div className="expense-item__description">
                 <h2>Book</h2>
-                <p>$10</p>
+                <div className="expense-item__price">$20</div>
             </div>
         </div>
-        // Or as an array
-        // <>
-        //     <p>15 August 2023</p>
-        //     <p>Delhi</p>
-        //     <div>
-        //         <h2>Book</h2>
-        //         <p>$10</p>
-        //     </div>
-        // </>
     );
 }
