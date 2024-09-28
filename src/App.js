@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <h1>Getting started with React.</h1>
-      <Expenses expenses={expenses}></Expenses>
+      <Expenses expenses={expenses} />
     </div>
   );
 }
